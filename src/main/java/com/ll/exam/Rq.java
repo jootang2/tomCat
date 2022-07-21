@@ -8,8 +8,8 @@ import java.io.UnsupportedEncodingException;
 
 public class Rq {
 
-    private final HttpServletRequest req;
-    private final HttpServletResponse resp;
+    private HttpServletRequest req;
+    private HttpServletResponse resp;
 
     public Rq(HttpServletRequest req, HttpServletResponse resp) {
 
